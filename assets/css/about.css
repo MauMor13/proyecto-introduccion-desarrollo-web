@@ -1,0 +1,116 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/******** pie de pagina *********/
+footer {
+    background-color: #444;
+    height: 3rem;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+footer p {
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+header .website-name {
+    margin: 0 auto;
+    margin-left: 44rem;
+}
+
+nav {
+    background-color: #444;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    height: 10rem;
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container p {
+    margin: 0;
+    padding: 1rem;
+    width: 50rem;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team-section h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-card h3 {
+    margin: 15px 0 5px;
+    font-size: 1.2em;
+}
+
+.team-card p {
+    margin: 5px 0;
+    color: #777;
+}
