@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .container {
-    height: 10rem;
+    height: 14rem;
     display: flex;
     margin: 2rem;
     flex-direction: column;
@@ -72,10 +72,12 @@ nav a:hover {
     padding: 1rem;
     width: 50rem;
 }
+.container h2{
+    font-size: 2em;
+}
 
 .team-section {
     text-align: center;
-    padding: 50px 0;
 }
 
 .team-section h2 {
@@ -92,7 +94,7 @@ nav a:hover {
 .team-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 8px rgba(0, 0, 0, 0.178);
     width: 200px;
     padding: 20px;
     text-align: center;
@@ -112,5 +114,34 @@ nav a:hover {
 
 .team-card p {
     margin: 5px 0;
-    color: #777;
+    color: #4d4d4d;
+}
+.values {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.values h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.values ul {
+    margin: auto;
+    list-style-type:circle;
+    padding-top: 5px;
+    text-align: left;
+    width: 50rem;
+}
+
+.values ul li {
+    margin: 10px 0;
+    color: #34495e;
+}
+
+.values strong {
+    color: black;
 }
