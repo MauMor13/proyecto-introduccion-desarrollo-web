@@ -59,6 +59,7 @@ nav a:hover {
     background-color: #555;
     color: white;
     height: 7rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,26 +104,32 @@ main h3{
 }
 .product-card h3 {
     margin: 10px 0;
+    height: 3rem;
+    padding: 0;
     font-size: 1.2rem;
 }
-.product-card p {
+.product-card .text {
+    min-height: 3rem;
     font-size: 0.9rem;
     color: #555;
 }
 .product-card .price {
+    margin: 2rem;
     font-size: 1.1rem;
     color: #333;
-    margin: 10px 0;
+    margin: .5rem;
 }
-.product-card button {
+.info {
+    display: inline-block;
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 10px 16px;
+    padding: 10px;
+    width: 5rem;
     cursor: pointer;
     border-radius: 5px;
 }
-.product-card button:hover {
+.info:hover {
     background-color: #0056b3;
 }
 .products-container {
