@@ -1,7 +1,7 @@
 /******** banner *******/
 .banner {
-    background-color: #555;
-    color: white;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px #0057b3;
     height: 7rem;
     width: 100%;
     display: flex;
@@ -13,9 +13,11 @@
 .banner p {
     padding: 15px;
     margin: 0;
+    font-size: 1.5rem;
 }
 
 .banner h2 {
+    font-size: 2rem;
     margin: 0;
 }
 
