@@ -1,94 +1,46 @@
-* {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/******** pie de pagina *********/
-footer {
-    background-color: #444;
-    height: 3rem;
-    color: white;
-    text-align: center;
-    display: flex;
-}
-
-footer p {
-    margin: auto;
-}
-
-header {
-    background-color: white;
-    color: black;
-    padding: 10px 0px;
-    text-align: center;
-    height: 5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    height: 5rem;
-    margin-left: 1rem;
-}
-
-header .website-name {
-    margin: 0 auto;
-    margin-left: 44rem;
-}
-
-nav {
-    background-color: #444;
-    height: 3rem;
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-nav a {
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #555;
-}
-
-.container {
-    height: 14rem;
-    display: flex;
-    margin: 2rem;
     flex-direction: column;
-    align-items: center;
-    vertical-align: middle;
+}
+/********* sobre nosotros ***********/
+.container {
+    min-height: 14rem;
+    margin-top: 1rem;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
 .container p {
     margin: 0;
     padding: 1rem;
-    width: 50rem;
 }
 .container h2{
-    font-size: 2em;
+    font-family: 'varsity';
+    font-size: 2.5rem;
 }
 
+/********** seccion de equipo *********/
 .team-section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .team-section h2 {
-    margin-bottom: 40px;
-    font-size: 2em;
+    font-family: 'varsity';
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 .team-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
 }
 
 .team-card {
@@ -118,28 +70,31 @@ nav a:hover {
 }
 .values {
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 3rem;
+    background-color: #ffffffd2;
 }
 
 .values h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
+    font-family: 'varsity';
+    margin-bottom: .3rem;
+    font-size: 2.5rem;
 }
 
 .values ul {
-    margin: auto;
     list-style-type:circle;
     padding-top: 5px;
+    padding-left: 20px;
     text-align: left;
-    width: 50rem;
 }
 
 .values ul li {
-    margin: 10px 0;
-    color: #34495e;
+    margin: 10px;
+    color: #180daf;
 }
 
 .values strong {
