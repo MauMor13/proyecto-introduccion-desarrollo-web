@@ -58,11 +58,15 @@ header h1{
 
 /******** barra de navegacion *********/
 nav {
-    background-color: #444;
+    background-color: #0000008c;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
 }
 
 nav a {
