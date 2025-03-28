@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'varsity';
+    src: url(../font/varsity_regular.ttf);
+    font-weight: bold;
+    font-size: 100;
+}
+
+body{
+    background-image: url(../img/background/texture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/******** pie de pagina *********/
+footer {
+    background-color: #444;
+    height: 3rem;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+
+footer p {
+    margin: auto;
+}
+
+/******** header *********/
+
+header {
+    color: black;
+    padding: 10px 0px;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header img {
+    height: 5rem;
+    position: absolute;
+    left: 1rem;
+}
+
+header h1{
+    margin: 0;
+    font-family: 'varsity';
+    font-size: 4rem;
+}
+
+/******** barra de navegacion *********/
+nav {
+    background-color: #444;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background-color:#fdd701;
+}
+
+h3{
+    font-family: 'varsity';
+    font-size: 3rem;
+}
