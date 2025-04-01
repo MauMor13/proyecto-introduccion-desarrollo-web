@@ -46,6 +46,10 @@ body {
     padding: 20px;
 }
 
+.container h3{
+    color: white;
+}
+
 .products-grid {
     display: flex;
     justify-content: center;
