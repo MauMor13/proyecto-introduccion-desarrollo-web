@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Edge Sports | Productos</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="shortcut icon" href="./assets/icons/icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/icons/icon.svg" alt="Active Edge Sports">
+        <h1>Active Edge Sports</h1>
+    </header>
+
+    <nav>
+        <a href="./index.html">Inicio</a>
+        <a href="./product.html">Productos</a>
+        <a href="./about.html">Sobre Nosotros</a>
+        <a href="">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <section class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.8170526942636!2d-63.80259142364657!3d-31.775475374098118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd31bdf10bc9df%3A0x47e428de1fe5dbe1!2sChubut%2C%20X5974%20Laguna%20Larga%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1743515839085!5m2!1ses-419!2sar"
+                    width="100%" height="100%" style="border-radius: 8px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="form-container">
+                <form>
+                    <fieldset>
+                        <legend>Contactanos</legend>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Nombre y Apellido</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email-confirm">Confirmar Email</label>
+                                <input type="email" id="email-confirm" name="email-confirm" required>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Categorias de Interes:</legend>
+                        <div class="options-group">
+                            <div class="option-item">
+                                <input type="checkbox" id="category1" name="categories" value="1">
+                                <label for="category1">Calzado</label>
+                            </div>
+                            <div class="option-item">
+                                <input type="checkbox" id="category2" name="categories" value="2">
+                                <label for="category2">Equipo de Fitness</label>
+                            </div>
+                        </div>
+                        <div class="options-group">
+                            <div class="option-item">
+                                <input type="checkbox" id="category3" name="categories" value="3">
+                                <label for="category3">Deportes al Aire Libre</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Mensaje:</legend>
+                        <textarea rows="4" placeholder="Dejanos tu mensaje..." required></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Quieres Suscribirte ? :</legend>
+                        <div class="options-group">
+                            <div class="option-item">
+                                <input type="radio" id="subscribe-yes" name="subscribe" value="yes" checked>
+                                <label for="subscribe-yes">Si</label>
+                            </div>
+                            <div class="option-item">
+                                <input type="radio" id="subscribe-no" name="subscribe" value="no">
+                                <label for="subscribe-no">No</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2024 Mauricio Mores. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
