@@ -18,6 +18,12 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
+@media ( max-width: 850px ) {
+    .sidebar{
+        display: none;
+    }
+}
+
 .sidebar h4 {
     border-bottom: 1px solid #34495e;
     font-size: 1.5rem;
@@ -46,8 +52,16 @@ body {
     padding: 20px;
 }
 
+@media ( max-width: 850px ) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .container h3{
     color: white;
+    
 }
 
 .products-grid {
@@ -153,7 +167,7 @@ table {
 
 th,
 td {
-    padding: 12px 15px;
+    padding: 10px 10px;
     text-align: left;
     border: 1px solid #b4eb1f;
 }
